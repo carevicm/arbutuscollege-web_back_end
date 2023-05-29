@@ -1,12 +1,5 @@
-function getStudentIdsSum(students) {
-  if (!Array.isArray(students)) {
-    return [];
-  }
-
-  const reducer = (acc, item) => acc + item.id;
-
-
-  return sumIds;
+export default function getStudentIdsSum(listOfStudent) {
+  const ids = (element) => element.id;
+  const acum = (acumulator, num) => acumulator + num;
+  return listOfStudent.map(ids).reduce(acum, 0);
 }
-
-export default getStudentIdsSum;
