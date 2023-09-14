@@ -1,5 +1,12 @@
-Readme
 
+Project badge
+100%
+100%
+ES6 classes
+ Amateur
+ By: Johann Kerbrat, Engineering Manager at Uber Works
+ Weight: 1
+ Your score will be updated as you progress.
 
 
 Resources
@@ -46,67 +53,15 @@ package.json
 Click to show/hide file contents
 babel.config.js
 Click to show/hide file contents
-
-module.exports = {
-  presets: [
-    [
-      '@babel/preset-env',
-      {
-        targets: {
-          node: 'current',
-        },
-      },
-    ],
-  ],
-};
-
 .eslintrc.js
 Click to show/hide file contents
-
-module.exports = {
-  env: {
-    browser: false,
-    es6: true,
-    jest: true,
-  },
-  extends: [
-    'airbnb-base',
-    'plugin:jest/all',
-  ],
-  globals: {
-    Atomics: 'readonly',
-    SharedArrayBuffer: 'readonly',
-  },
-  parserOptions: {
-    ecmaVersion: 2018,
-    sourceType: 'module',
-  },
-  plugins: ['jest'],
-  rules: {
-    'max-classes-per-file': 'off',
-    'no-underscore-dangle': 'off',
-    'no-console': 'off',
-    'no-shadow': 'off',
-    'no-restricted-syntax': [
-      'error',
-      'LabeledStatement',
-      'WithStatement',
-    ],
-  },
-  overrides:[
-    {
-      files: ['*.js'],
-      excludedFiles: 'babel.config.js',
-    }
-  ]
-};
-
 and…
 Don’t forget to run $ npm install when you have the package.json
 
 Tasks
 0. You used to attend a place like this at some point
 mandatory
+Score: 0% (Checks completed: 0%)
 Implement a class named ClassRoom:
 
 Prototype: export default class ClassRoom
@@ -126,10 +81,11 @@ Repo:
 GitHub repository: arbutuscollege-web_back_end
 Directory: ES6_classes
 File: 0-classroom.js
-  
-0/2 pts
+   
+2/2 pts
 1. Let's make some classrooms
 mandatory
+Score: 100.00% (Checks completed: 100.00%)
 Import the ClassRoom class from 0-classroom.js.
 
 Implement a function named initializeRooms. It should return an array of 3 ClassRoom objects with the sizes 19, 20, and 34 (in this order).
@@ -152,10 +108,11 @@ Repo:
 GitHub repository: arbutuscollege-web_back_end
 Directory: ES6_classes
 File: 1-make_classrooms.js
-  
-0/3 pts
+   
+3/3 pts
 2. A Course, Getters, and Setters
 mandatory
+Score: 100.00% (Checks completed: 100.00%)
 Implement a class named HolbertonCourse:
 
 Constructor attributes:
@@ -205,10 +162,11 @@ Repo:
 GitHub repository: arbutuscollege-web_back_end
 Directory: ES6_classes
 File: 2-hbtn_course.js
-  
-0/5 pts
+   
+5/5 pts
 3. Methods, static methods, computed methods names..... MONEY
 mandatory
+Score: 100.00% (Checks completed: 100.00%)
 Implement a class named Currency:
 
 - Constructor attributes:
@@ -232,10 +190,11 @@ Repo:
 GitHub repository: arbutuscollege-web_back_end
 Directory: ES6_classes
 File: 3-currency.js
-  
-0/3 pts
+   
+3/3 pts
 4. Pricing
 mandatory
+Score: 100.00% (Checks completed: 100.00%)
 Import the class Currency from 3-currency.js
 
 Implement a class named Pricing:
@@ -268,10 +227,11 @@ Repo:
 GitHub repository: arbutuscollege-web_back_end
 Directory: ES6_classes
 File: 4-pricing.js
-  
-0/3 pts
+   
+3/3 pts
 5. A Building
 mandatory
+Score: 100.00% (Checks completed: 100.00%)
 Implement a class named Building:
 
 Constructor attributes:
@@ -306,10 +266,11 @@ Repo:
 GitHub repository: arbutuscollege-web_back_end
 Directory: ES6_classes
 File: 5-building.js
-  
-0/3 pts
+   
+3/3 pts
 6. Inheritance
 mandatory
+Score: 0% (Checks completed: 0%)
 Import Building from 5-building.js.
 
 Implement a class named SkyHighBuilding that extends from Building:
@@ -339,10 +300,11 @@ Repo:
 GitHub repository: arbutuscollege-web_back_end
 Directory: ES6_classes
 File: 6-sky_high.js
-  
-0/2 pts
+   
+2/2 pts
 7. Airport
 mandatory
+Score: 100.00% (Checks completed: 100.00%)
 Implement a class named Airport:
 
 Constructor attributes:
@@ -367,10 +329,11 @@ Repo:
 GitHub repository: arbutuscollege-web_back_end
 Directory: ES6_classes
 File: 7-airport.js
-  
-0/2 pts
+   
+2/2 pts
 8. Primitive - Holberton Class
 mandatory
+Score: 100.00% (Checks completed: 100.00%)
 Implement a class named HolbertonClass:
 
 Constructor attributes:
@@ -396,10 +359,11 @@ Repo:
 GitHub repository: arbutuscollege-web_back_end
 Directory: ES6_classes
 File: 8-hbtn_class.js
-  
-0/3 pts
+   
+3/3 pts
 9. Hoisting
 mandatory
+Score: 100.00% (Checks completed: 100.00%)
 Fix this code and make it work.
 
 const class2019 = new HolbertonClass(2019, 'San Francisco');
@@ -503,10 +467,11 @@ Repo:
 GitHub repository: arbutuscollege-web_back_end
 Directory: ES6_classes
 File: 9-hoisting.js
-  
-0/4 pts
+   
+4/4 pts
 10. Vroom
 mandatory
+Score: 100.00% (Checks completed: 100.00%)
 Implement a class named Car:
 
 Constructor attributes:
@@ -546,10 +511,11 @@ Repo:
 GitHub repository: arbutuscollege-web_back_end
 Directory: ES6_classes
 File: 10-car.js
-  
-0/3 pts
+   
+3/3 pts
 11. EVCar
 #advanced
+Score: 100.00% (Checks completed: 100.00%)
 Import Car from 10-car.js.
 
 Implement a class named EVCar that extends the Car class:
